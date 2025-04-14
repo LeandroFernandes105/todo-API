@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Todo List</h1>
+      <div class="center-content">
+        Aplicação de lista de tarefas para a disciplina SPODW2
+      </div>
+      <!-- Filtros (opcional, se você desejar segmentar os itens) -->
+      <div class="center-content">
+        <a href="#" id="filter-all">Todos</a>
+        <a href="#" id="filter-done">Concluídos</a>
+        <a href="#" id="filter-pending">Pendentes</a>
+      </div>
+      <!-- Input para nova tarefa -->
+      <input type="text" id="new-todo" placeholder="Adicione aqui sua nova tarefa">
+      <!-- Lista onde os todos serão renderizados -->
+      <ul id="todo-list"></ul>
+    </main>
+    <script type="module" src="src/todo-ui.js"></script>
+  </body>
+</html>
